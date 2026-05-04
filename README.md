@@ -26,7 +26,7 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
 ## 🧑‍💻 Funcionalidades obligatorias — Backend
 
 ### 🔧 Estructura
-- CRUD completo de al menos 3 entidades (Usuario, Perfil, Película)
+- CRUD completo de al menos 3 entidades (Usuario, Perfil, Película, categría)
 - Uso de Mongoose
 - Autenticación con JWT
 - Roles con distintas capacidades (dueño de cuenta, perfil estándar, perfil niño)
