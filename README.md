@@ -33,10 +33,10 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
 - CRUD completo de al menos 3 entidades
 - Uso de Mongoose
 - Autenticación con JWT
-- Roles con distintas capacidades (dueño de cuenta, perfil estándar, perfil niño)
-<!-- - Validaciones en los endpoints -->
+- Roles con distintas capacidades
+- Validaciones en los endpoints
 - Endpoints seguros y protegidos según permisos del usuario
-- Al menos dos búsquedas o filtros avanzados (por nombre, categoría, etc.)
+- Al menos dos búsquedas o filtros avanzados
 - Paginado desde servidor en al menos una entidad **(Opcional ✨)**
 - Consumo de una API externa (puede ser para obtener ratings, trailers, datos de películas...)
 
@@ -50,7 +50,7 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
 - Componente para ver catálogo de películas
 - Componente de administración de perfiles
 - CRUD completo de entidades conectadas al backend
-- Watchlist persistente por perfil
+- Watchlist persistente por perfil *(ojo 👁️)*
 - Visualización y funcionamiento condicional según el tipo de perfil (ejemplo: niño solo ve contenido apto)
 - Rutas protegidas
 - Ruteo dinámico
@@ -62,7 +62,7 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
 - Manejo de Hooks: `useState`, `useEffect`, `useContext` **(mínimo 💀)**, custom hooks si desean
 - Formularios validados con `react-hook-form` y validaciones **(mejor si son con Zod, opcional ✨)**
 - Manejo de errores del backend
-- Toastify o SweetAlert2 para notificaciones
+- Toastify o SweetAlert2 para notificaciones **(Opcional ✨)**
 - Paginado desde el servidor en alguna vista **(Opcional ✨)**
 - Theme claro / oscuro en toda la app, para cada componente
 
@@ -71,7 +71,7 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
 ## 🎨 Diseño
 - Interfaz clara, coherente y responsive
 - Navegación intuitiva
-- Estética cuidada (pueden usar bibliotecas visuales si lo desean ✨)
+- Estética cuidada (pueden usar bibliotecas visuales y/o diseñar con Google Stuch si lo desean ✨)
 - Consistencia visual entre componentes
 - Respetar Leyes de UX
 
@@ -87,13 +87,21 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
   - Uso real de tokens
   - Rutas protegidas
   - Interfaz visual coherente
-- Review individual: el estudiante debe poder **explicar y defender cada parte del código que escribió**
+- Review individual:
+  1. **Presentación del proyecto, como si lo estuvieras vendiendo.** Antes de abrir el código, contame:
+     - **De qué se trata y para qué sirve:** qué problema resuelve y para quién.
+     - **Cómo llegaste a esa idea y cómo la diseñaste:** qué decisiones tomaste y por qué (los flujos, los endpoints, el modelo de datos).
+     - **La app funcionando:** una demo en vivo del recorrido principal, mostrando el producto como lo vería un usuario.
+
+     Se trata de contar tu proyecto con claridad y honestidad, incluyendo lo que quedó afuera del MVP y por qué.
+  2. **Defensa técnica.** El estudiante debe poder **explicar y defender cada parte del código que escribió**.
 - Aplicación deployada
 
 ### ⭐ Bonus
 - Exportar reporte de uso (por ejemplo, cuántas veces se vio una película)
 - Filtros avanzados
 - Integración continua con GitHub Actions
+- Diagramas de flujo
 
 ---
 
