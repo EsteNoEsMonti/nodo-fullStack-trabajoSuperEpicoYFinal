@@ -1,5 +1,5 @@
 ## 💥 Trabajo Práctico Épico y Final
-### 🧠 Fullstack React + Node
+### 🧠 Fullstack MERN
 
 ### 🎯 Objetivo General
 Desarrollar una aplicación web fullstack que combine autenticación, administración de perfiles, consumo de APIs externas y un flujo de uso realista. El enfoque debe estar en la **calidad del código, la coherencia del diseño, la experiencia del usuario y la cobertura de funcionalidades básicas y avanzadas**.
@@ -12,9 +12,13 @@ Desarrollar una aplicación web fullstack que combine autenticación, administra
 - **Frontend:** React + Vite + TailwindCSS v4
 - **Backend:** Node.js + Express + MongoDB
 - **Comunicación entre front y back:** Axios/Fetch + Auth Token (JWT)
-<!-- - **Herramientas extra:** react-hook-form, SweetAlert2, Toastify, React Router DOM, LocalStorage, etc. -->
+<!-- - **Herramientas extra:** react-hook-form, SweetAlert2, Toastify, React Router, LocalStorage, etc. -->
 
-### 🎬 Proyecto sugerido: Nodo Cine (sugerimos... pero se valora su creatividad al elegir otra temática)
+> 🔑 **El `.env` NO se sube al repositorio.** A diferencia de los TPs anteriores, ahora sí hay datos sensibles (la conexión a la base de datos y el `JWT_SECRET`), y los repos son públicos. Va en el `.gitignore`, y se deja un `.env.example` sin valores reales (o vacíos). El `node_modules` tampoco se sube, como siempre.
+
+> 📦 **React Router:** se usa el paquete **`react-router`**, no `react-router-dom`. Si en algún tutorial o en la clase grabada de Auth ven `react-router-dom`, es de una versión anterior: los imports se hacen desde `react-router`.
+
+### 🎬 Proyecto sugerido: Nodo Cine (sugerimos... pero se **valora su creatividad** al elegir **otra temática** ✨)
 Una plataforma tipo "mini Netflix" donde un usuario puede:
 - Crear perfiles (como Netflix: perfil adulto, niño, etc.).
 - Ver un catálogo de películas.
@@ -26,7 +30,7 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
 ## 🧑‍💻 Funcionalidades obligatorias — Backend
 
 ### 🔧 Estructura
-- CRUD completo de al menos 3 entidades (Usuario, Perfil, Película, categría)
+- CRUD completo de al menos 3 entidades (Usuario, Perfil, Película)
 - Uso de Mongoose
 - Autenticación con JWT
 - Roles con distintas capacidades (dueño de cuenta, perfil estándar, perfil niño)
@@ -51,12 +55,12 @@ Una plataforma tipo "mini Netflix" donde un usuario puede:
 - Rutas protegidas
 - Ruteo dinámico
 - Formularios (ejemplo: de edición de perfil)
-- Páginas controladas por React Router DOM
+- Páginas controladas por React Router (`react-router`)
 
 ### ⚙️ Técnica
 - Peticiones con Axios
 - Manejo de Hooks: `useState`, `useEffect`, `useContext` **(mínimo 💀)**, custom hooks si desean
-- Formularios validados con `react-hook-form` y validaciones con Yup **(Yup opcional ✨)**
+- Formularios validados con `react-hook-form` y validaciones **(mejor si son con Zod, opcional ✨)**
 - Manejo de errores del backend
 - Toastify o SweetAlert2 para notificaciones
 - Paginado desde el servidor en alguna vista **(Opcional ✨)**
@@ -104,5 +108,7 @@ Ejemplos alternativos posibles:
 - Agenda de turnos con múltiples perfiles  
 - Red social básica con perfiles personalizados  
 - App para administrar torneos deportivos
+
+---
 
 ✨ Que la fuerza los acompañe ✨
